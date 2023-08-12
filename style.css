@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://img.freepik.com/premium-vector/temperature-form-lines-particle-style-design_41814-145.jpg?w=1060');
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+.container {
+    max-width: 450px;
+    border-radius: 8px;
+    background: #003333;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.Temperature-icon {
+    font-size: 45px;
+    color: #fff;
+}
+
+h1 {
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+}
+
+#celcius,
+#farenheit,
+#kelvin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+input {
+    flex: 5;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 8px 0px 0px 8px;
+    padding: 0px 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.icon {
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 0px 8px 8px 0px;
+    padding: 0px 5px;
+    color: white;
+    background: #4d5964;
+}
+.button{
+    margin-top:25px ;
+    text-align: center;
+}
+.button button{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button button:hover{
+    background: black;
+    color: white;
+}
